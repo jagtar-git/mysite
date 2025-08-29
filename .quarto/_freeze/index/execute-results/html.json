@@ -1,0 +1,12 @@
+{
+  "hash": "28826ba30e59a7e622be386edddf3589",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Welcome\"\ncode-fold: true\n---\n\n## Hello from Python\n\n::: {#b0fedb48 .cell execution_count=1}\n``` {.python .cell-code}\nname = \"World\"\nf\"Hello, {name}!\"\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n'Hello, World!'\n```\n:::\n:::\n\n\n::: {#b597b9af .cell execution_count=2}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=590 height=431}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
